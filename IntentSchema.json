@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "intent": "GroceryIntent",
+      "slots": [
+        {
+          "name": "grocery",
+          "type": "Grocery_List"
+        }
+      ]
+    },
+    {
+      "intent": "MovingIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
